@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "book_services",
+  "info": {
+    "singularName": "book-service",
+    "pluralName": "book-services",
+    "displayName": "Book Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "company_name": {
+      "type": "string",
+      "required": true
+    },
+    "company_size": {
+      "type": "string",
+      "required": true
+    },
+    "job_title": {
+      "type": "string",
+      "required": true
+    },
+    "business_email": {
+      "type": "email",
+      "required": true
+    },
+    "phone_number": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "additional_details": {
+      "type": "string",
+      "required": true
+    },
+    "service": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
